@@ -1,0 +1,45 @@
+.todo-container {
+  border: 2px solid #ff69b4; /* Hot Pink border */
+  border-radius: 10px; /* Slightly rounded corners */
+  padding: 1rem;
+  text-align: center;
+  background-color: #ffe4e1; /* Light Pink background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.todo-filters-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.todo-table {
+  width: 100%; /* Full width table */
+  border-collapse: collapse; /* Neater table borders */
+  border: 2px solid #ff1493; /* Deep Pink border for table */
+}
+
+.todo-table th, .todo-table td {
+  border: 1px solid #ff69b4; /* Pink borders for cells */
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.todo-space {
+  margin: 0 0.5rem;
+}
+
+.todo-space button {
+  background-color: #ff69b4; /* Hot Pink button */
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo-space button:hover {
+  background-color: #ff1493; /* Deep Pink on hover */
+}

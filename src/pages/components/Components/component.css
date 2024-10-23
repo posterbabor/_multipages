@@ -1,0 +1,56 @@
+* {
+  text-align: center;
+}
+
+.lineOf_CAT {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.counter {
+  grid-template-rows: 2fr;
+}
+
+.title_work {
+  background-color: #ffe4e1; /* Light Pink */
+  width: 30rem;
+  height: 4rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add soft shadow */
+  color: #333; /* Dark text color for readability */
+  font-weight: bold;
+}
+
+.title-myname {
+  background-color: #ffe4e1; /* Light Pink */
+  width: 30rem;
+  height: 3rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  text-align: center;
+  color: #333; /* Dark text */
+  font-weight: bold;
+}
+
+.forAdd {
+  margin-bottom: 2px;
+}
+
+.background-container {
+  margin: 1rem;
+  background-image: url("/public/background.jpg");
+  padding: 1rem;
+  background-color: #fff0f5; /* Lavender Blush as fallback */
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  background-size: cover; /* Ensure background fits */
+  background-position: center;
+}
+
+
+

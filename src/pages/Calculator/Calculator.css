@@ -1,0 +1,85 @@
+.calculator-container {
+  width: 25rem;
+  height: auto; /* Adjust height dynamically */
+  background-color: #ffb6c1; /* Light Pink */
+  border-radius: 50px;
+  margin: auto;
+  padding: 1rem;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+.show-box {
+  border: 1px solid #ff69b4; /* Hot Pink border */
+  width: 100%;
+  height: 10rem;
+  background-color: #ffe4e1; /* Light Pink background */
+  position: relative;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-bottom: 1rem;
+}
+
+#showbox {
+  font-size: 3rem; /* Adjust font size for better readability */
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  overflow: hidden;
+  text-align: right;
+  border: none;
+  background-color: transparent;
+  left: 10px;
+  color: #333; /* Dark text */
+}
+
+.calculator-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem; /* Adjust gap for better layout */
+  margin: 1rem 0;
+}
+
+.box {
+  background-color: #fff0f5; /* Lavender Blush */
+  border: none;
+  border-radius: 15px; /* Slightly less rounded for cleaner look */
+  width: 100%; /* Full width of grid cell */
+  height: 4rem; /* Adjust height for better balance */
+  text-align: center;
+  font-size: 1.5rem; /* Slightly smaller font for better fit */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.box:hover {
+  background-color: #ff69b4; /* Hot Pink on hover */
+  color: white;
+}
+
+#calbutton {
+  grid-row: span 2; /* Make the button span two rows */
+  height: auto; /* Dynamic height based on content */
+  border-radius: 15px; /* Consistent border radius */
+  background-color: #ff1493; /* Deep Pink */
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#calbutton:hover {
+  background-color: #ff69b4; /* Hot Pink on hover */
+  color: yellow;
+}
+
+#delete:hover, #add:hover, #div:hover, #mul:hover, #sub:hover {
+  color: white;
+  background-color: #ff1493; /* Deep Pink on hover */
+}
+
+#delone:active {
+  color: black;
+  background-color: #ff4500; /* Orange Red */
+}

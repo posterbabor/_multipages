@@ -1,0 +1,17 @@
+.products-container{
+    /* border: 1px solid; */
+    text-align: center;
+    width: 1020px;
+    height: 640px;
+    margin: 0 auto;
+}
+
+.product-items-container{
+    height: 500px;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    align-items: start;
+    grid-column-gap: 2rem;
+}
